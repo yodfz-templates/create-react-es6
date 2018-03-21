@@ -16,7 +16,14 @@
     "url": "https://github.com/yodfz-templates/create-react-start-es6/issues"
   },
   "homepage": "https://github.com/yodfz-templates/create-react-start-es6#readme",
-  "devDependencies": {
-    "react": "^16.0.0"
+  "devDependencies": {},
+  "dependencies": {
+    "babel-core": "^6.26.0",
+    "react": "^16.2.0",
+    "react-redux": "^5.0.7",
+    "react-router-dom": "^4.2.2",
+    "redux": "^3.7.2",
+    "redux-saga": "^0.16.0",
+    "webpack": "^4.2.0"
   }
 }
