@@ -1,0 +1,4 @@
+建立actionsType条目
+建立actions 描述数据如何装载
+建立数据处理文件 reducer
+如果有异步数据则建立sagas文件，并且在index中引入即可

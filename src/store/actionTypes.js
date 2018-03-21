@@ -1,0 +1,28 @@
+const GET_APP_DATA = 'GET_APP_DATA'
+const INIT_APP_BANNERS_DATA = 'INIT_APP_DATA_BANNERS'
+const GET_APP_BANNERS_DATA = 'GET_APP_BANNERS_DATA'
+const SET_APP_FETCH_STATUS = 'SET_APP_FETCH_STATUS'
+// GET 表示获取数据
+// INIT 表示重设数据
+// APPEND 表示追加数据
+// SET 表示设置数据，包含 设置一个 或 设置全部,如果清空数组，建议用INIT开头
+
+// ACTION结构
+// 动作_大类数据_(无下文||DATA)_(DATA||具体某数据)
+
+const STATE = {
+  ERROR: 'ERROR',
+  SUCCESS: 'SUCCESS',
+  LOADING: 'LOADING'
+}
+
+export {
+  GET_APP_DATA,
+  GET_APP_BANNERS_DATA,
+
+  INIT_APP_BANNERS_DATA,
+
+  SET_APP_FETCH_STATUS,
+
+  STATE
+}
