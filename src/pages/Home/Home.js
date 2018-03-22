@@ -4,8 +4,14 @@ import Style from './Home.module.scss'
 import {connect} from 'react-redux';
 import {bindActionCreators} from 'redux';
 import {appRefush} from '../../store/actions/App'
-
-class Home extends Component {
+console.log(Style)
+@connect(
+  state => {
+    return {state: state.App}
+  },
+  dispatch => bindActionCreators({appRefush}, dispatch)
+)
+export default class Home extends Component {
   static defaultProps = {}
   static propTypes = {}
 
@@ -185,11 +191,3 @@ class Home extends Component {
     )
   }
 }
-
-@connect(
-  state => {
-    return {state: state.App}
-  },
-  dispatch => bindActionCreators({appRefush}, dispatch)
-)
-export default Home

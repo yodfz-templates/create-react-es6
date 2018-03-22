@@ -79,24 +79,24 @@
   background-position: center;
 }
 .season-back {
-  composes: img-back;
-  background-image: url(/static/img/png_ititle_ico4@3x.png);
+  @extend .img-back;
+  background-image: url(../../static/img/png_ititle_ico4@3x.png);
   background-size: contain;
 }
 
 .choice-back {
-  composes: img-back;
-  background-image: url(/static/img/png_ititle_ico1@3x.png);
+  @extend .img-back;
+  background-image: url(../../static/img/png_ititle_ico1@3x.png);
 }
 
 .ranking-back {
-  composes: img-back;
-  background-image: url(/static/img/png_ititle_ico2@3x.png);
+  @extend .img-back;
+  background-image: url(../../static/img/png_ititle_ico2@3x.png);
 }
 
 .new-back {
-  composes: img-back;
-  background-image: url(/static/img/png_ititle_ico3@3x.png);
+  @extend .img-back;
+  background-image: url(../../static/img/png_ititle_ico3@3x.png);
 }
 
 .season-img {
@@ -246,7 +246,7 @@
 }
 
 .new {
-  composes: choice;
+  @extend .choice;
   .img-wrapper {
     .tag {
       color: rgb(212, 151, 107);

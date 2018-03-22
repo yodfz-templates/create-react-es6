@@ -7,3 +7,7 @@ import {GET_APP_DATA} from '../actionTypes'
 const appRefush = () => {
   return {type: GET_APP_DATA}
 }
+
+export {
+  appRefush
+}
