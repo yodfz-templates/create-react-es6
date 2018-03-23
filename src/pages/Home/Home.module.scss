@@ -246,6 +246,7 @@
 }
 
 .new {
+  @extend .img-back;
   .img-wrapper {
     .tag {
       color: rgb(212, 151, 107);
