@@ -4,7 +4,7 @@ import Style from './Home.module.scss'
 import {connect} from 'react-redux';
 import {bindActionCreators} from 'redux';
 import {appRefush} from '../../store/actions/App'
-console.log(Style)
+
 @connect(
   state => {
     return {state: state.App}
